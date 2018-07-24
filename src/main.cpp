@@ -2,7 +2,7 @@
 
 namespace {
   Serial pc(USBTX, USBRX);
-  PwmOut edf(PA_6);
+  PwmOut edf(D5);
   float speed = 0;
 }
 
